@@ -1,22 +1,23 @@
 class Solution(object):
     def numDistinct(self, s, t):
-        count = 0  # Contador para o número de vezes que `t` pode ser formado
-        s_list = list(s)  # Converte `s` em uma lista para manipulação direta
+        # Tamanho das strings
+        m, n = len(s), len(t)
         
-        while True:
-            j = 0  # Índice para percorrer `t`
-            i = 0  # Índice para percorrer `s_list`
-            
-            while i < len(s_list) and j < len(t):
-                if s_list[i] == t[j]:
-                    s_list[i] = None  # Marca o caractere como usado
-                    j += 1  # Avança no `t` quando há correspondência
-                i += 1
-            
-            # Se conseguimos formar `t`, incrementamos o contador
-            if j == len(t):
-                count += 1
-            else:
-                break  # Se `t` não puder ser formado, saímos do loop
+        # Inicializa a matriz dp com zeros
+        dp = [[0] * (n + 1) for _ in range(m + 1)]
         
-        return count
+        # Uma string vazia `t` pode ser formada a partir de qualquer prefixo de `s`
+        for i in range(m + 1):
+            dp[i][0] = 1
+        
+        # Preenche a matriz dp
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                # Se os caracteres atuais coincidem, somar as formas usando ou não usando o caractere de s
+                if s[i - 1] == t[j - 1]:
+                    dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j]
+                else:
+                    dp[i][j] = dp[i - 1][j]
+        
+        # O resultado está na última célula da matriz
+        return dp[m][n]
