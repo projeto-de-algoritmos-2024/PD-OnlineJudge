@@ -1,8 +1,10 @@
 ### Leetcode 123. Melhor Hora para Comprar e Vender Ações III
 
-**Status:** Resolvido  
-**Dificuldade:** Duro  
-**Tópicos:** Empresas
+**Dificuldade:** Hard  
+
+Link para o enunciado completo:
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
 
 Você recebe uma matriz `prices` onde `prices[i]` está o preço de uma determinada ação no dia `i`. Encontre o lucro máximo que você pode atingir. Você pode completar no máximo duas transações.
 
@@ -28,6 +30,8 @@ Você recebe uma matriz `prices` onde `prices[i]` está o preço de uma determin
 - **Saída:** `0`
 - **Explicação:** Neste caso, nenhuma transação é feita, ou seja, lucro máximo = 0.
 
-Para o enunciado completo:
+Submissões:
 
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+![image](https://github.com/user-attachments/assets/f96de56c-222f-44d4-80ca-5dc23bcef21b)
+
+
