@@ -1,7 +1,7 @@
 class Solution(object):
     def maxProfit(self, prices):
-        cost = 0
-        cost2 = 0
+        cost = -999999
+        cost2 = -999999 
         sell = 0
         sell2 = 0
 
