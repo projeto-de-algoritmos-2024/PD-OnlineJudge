@@ -15,4 +15,5 @@ https://leetcode.com/problems/word-break-ii/description/?envType=problem-list-v2
 
 Submissões:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/430852d8-6b59-40d0-a257-f15c259ecb27)
+
