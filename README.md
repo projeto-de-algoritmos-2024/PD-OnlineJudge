@@ -1,45 +1,29 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# DC_OnlineJudge
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 8<br>
+**Conteúdo da Disciplina**: Programação dinâmica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 21/1039519  | João Manoel Barreto Neto |
+| 21/1039789  | Guilherme Soares Rocha |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Questões resolvidas do juíz online "Leetcode"
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Questão 1:
+
+![image](https://github.com/user-attachments/assets/f96de56c-222f-44d4-80ca-5dc23bcef21b)
+
+Questão 2:
+
+ ![image](https://github.com/user-attachments/assets/5addce71-0d74-4a36-b82d-ed48bd8827d4)
+
+Questão 3:
+
+![image](../PD-OnlineJudge/Questão%203/image.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+**Linguagem**: Python<br>
