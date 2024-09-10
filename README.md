@@ -23,7 +23,7 @@ Questão 2:
 
 Questão 3:
 
-![image](../PD-OnlineJudge/Questão%203/image.png)
+![image](https://github.com/user-attachments/assets/430852d8-6b59-40d0-a257-f15c259ecb27)
 
 ## Instalação 
 **Linguagem**: Python<br>
